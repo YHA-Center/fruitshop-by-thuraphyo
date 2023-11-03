@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+    background: url(02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: relative;
+    font-weight: bold;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+nav img:hover{
+    rotate: 45deg;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    border-radius: 50px;
+}
+nav ul li{
+    padding: 10px 5px;
+
+}
+nav ul li a{
+   
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+nav ul li a:hover{
+    background:brown;
+    color:rgb(255, 247, 247);
+    transform:scale(1s);
+    border-radius: 20px;
+}
+.banner{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.banner h1{
+    color: rgb(255, 250, 250);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.banner p{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 25px;
+    color:rgb(161, 40, 40);
+    font-weight: bolder;
+    background-color: white;
+}
+.banner a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgba(255, 183, 0, 0.894);
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height:125vh;
+    margin-bottom: 50px;
+    background-color: rgb(238, 238, 238);
+}
+#about .container{
+    width: 100%;
+}
+#about .container .text{
+    text-align: center;
+    color: rgb(255, 191, 0);
+    padding-bottom: 50px;
+}
+#about .container .row .col-4{
+    height: 400px;
+}
+#about .container .row .col-4 .mb{
+    display: block;
+    font-style: italic;
+
+}
+#about .container .row .col-4 .tt{
+    background: url(apple.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+/*#about .container .row .col-4 .tt h1{
+    display: block;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}*/
+#about .container .row .col-4 .ma{
+    display: block;
+    font-style: italic;
+}
+#about .container .row .col-4 .tg{
+    background: url(dragon.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    color:white;  
+    border-radius: 20px;
+}
+/*#about .container .row .col-4 .tg h1{
+    display: block;
+    font-style:oblique;
+    color:rgb(255, 255, 255);
+}*/
+#about .container .row .col-4 .mc{
+    display: block;
+    font-style: italic;
+}
+#about .container .row .col-4 .tm{
+    background: url(banana.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    color: white; 
+    border-radius: 20px;
+}
+/*#about .container .row .col-4 .tm h1{
+    display: block;
+    font-style: oblique;
+    color: rgb(246, 246, 246);
+}
+*/
+#about1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    background-color:green;
+ }
+#about1 .footer{
+    padding: 10px 20px;
+}
+#about1 .footer h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#about1 .footer p{
+    font-size: 18px;
+    color:white;
+    font-style: italic;
+}
+#about1 .footer1{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+#about1 .footer1 h3{
+    font-size: 20px;
+}
+#about1 .col-6 .ha{
+    color: white;
+}
+#about1 .col-6 .social a{
+    display: inline-block;
+    color:red;
+    margin-left: 25px;
+    font-size: 20px;
+}
+#about1 .col-6 .social a:hover{
+    transform: scale(1.5);
+    transition: .4s;
+    color:white;
+}
+#about .container .row .col-4:hover{
+    scale: 1.05;
+}
